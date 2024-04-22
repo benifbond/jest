@@ -19,8 +19,8 @@ expect.extend({
 });
 
 test('new async, inline snapshots', async () => {
-  await expect(async () => 'result #1').toMatchObservationInlineSnapshot();
-  await expect(async () => 'result #2').toMatchObservationInlineSnapshot();
+  await expect(async () => 'result #1').toMatchObservationInlineSnapshot(`"result #1"`);
+  await expect(async () => 'result #2').toMatchObservationInlineSnapshot(`"result #2"`);
 });
 
 test('mismatching async, inline snapshots', async () => {

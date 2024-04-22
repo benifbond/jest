@@ -311,7 +311,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.1, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.19.6, @babel/core@npm:^7.20.0, @babel/core@npm:^7.23.3":
+"@babel/core@npm:^7.11.1, @babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.19.6, @babel/core@npm:^7.20.0, @babel/core@npm:^7.23.3, @babel/core@npm:^7.23.7":
   version: 7.23.7
   resolution: "@babel/core@npm:7.23.7"
   dependencies:
@@ -1744,7 +1744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.1.0, @babel/preset-env@npm:^7.11.0, @babel/preset-env@npm:^7.19.4, @babel/preset-env@npm:^7.22.9, @babel/preset-env@npm:^7.23.3":
+"@babel/preset-env@npm:^7.1.0, @babel/preset-env@npm:^7.11.0, @babel/preset-env@npm:^7.19.4, @babel/preset-env@npm:^7.22.9, @babel/preset-env@npm:^7.23.3, @babel/preset-env@npm:^7.23.8":
   version: 7.23.8
   resolution: "@babel/preset-env@npm:7.23.8"
   dependencies:
@@ -1860,7 +1860,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.12.1, @babel/preset-react@npm:^7.18.6, @babel/preset-react@npm:^7.22.5":
+"@babel/preset-react@npm:^7.12.1, @babel/preset-react@npm:^7.18.6, @babel/preset-react@npm:^7.22.5, @babel/preset-react@npm:^7.23.3":
   version: 7.23.3
   resolution: "@babel/preset-react@npm:7.23.3"
   dependencies:
@@ -9919,11 +9919,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example-snapshot@workspace:examples/snapshot"
   dependencies:
-    "@babel/core": ^7.11.6
-    "@babel/preset-env": ^7.1.0
-    "@babel/preset-react": ^7.12.1
-    babel-jest: "workspace:*"
-    jest: "workspace:*"
+    "@babel/core": ^7.23.7
+    "@babel/preset-env": ^7.23.8
+    "@babel/preset-react": ^7.23.3
+    babel-jest: 29.7.0
+    jest: 29.7.0
+    jest-cli: "workspace:^"
     react: 18.2.0
     react-test-renderer: 18.2.0
   languageName: unknown
@@ -12667,7 +12668,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"jest-cli@workspace:*, jest-cli@workspace:packages/jest-cli":
+"jest-cli@workspace:*, jest-cli@workspace:^, jest-cli@workspace:packages/jest-cli":
   version: 0.0.0-use.local
   resolution: "jest-cli@workspace:packages/jest-cli"
   dependencies:

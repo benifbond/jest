@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`escape regex 1`] = `/\\\\dd \\\\s\\+ \\\\w \\\\\\\\\\\\\\[ \\\\\\. blahzz\\.\\* \\[x-z\\]\\+/`;
+
+exports[`escape regex nested in object 1`] = `
+{
+  "regex": /\\\\dd \\\\s\\+ \\\\w \\\\\\\\\\\\\\[ \\\\\\. blahzz\\.\\* \\[x-z\\]\\+/,
+}
+`;
